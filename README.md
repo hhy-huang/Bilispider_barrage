@@ -16,6 +16,8 @@ bilibili.xml
 
 程序运行后文件夹内会生成```image.jpg```即词云图片。
 
+oid在浏览器的Network里面的GET信息里找，然后字体文件的地址需要更改。
+
 ## 实现方法：
 
 封装一个类，在类内进行设置headers，url，发出requests，xml文件下载，分词，弹幕查重等操作。
