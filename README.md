@@ -18,7 +18,7 @@ bilibili.xml
 
 ## 实现方法：
 
-将一个元素
+封装一个类，在类内进行设置headers，url，发出requests，xml文件下载，分词，弹幕查重等操作。
 
 ## 效果：
 
